@@ -42,26 +42,27 @@ body {
 
 /* -------- navbar --------- */
 
-.navbar{    
+.navbar {
     background-color: #6C1D38;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 20px;
 }
 
-.nav-flex{
+.nav-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: right;
 }
 
-.nav-element{
+.nav-element {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 /*-----MENU SIDEBAR-----*/
 
@@ -178,4 +179,43 @@ body {
 
 .centrar {
     text-align: center;
+}
+
+
+/*Barra lateral */
+
+.vertical-menu {
+    width: 185px;
+    height: 250px;
+    /* Set a width if you like */
+    border: 1px #6C1D38 solid;
+}
+
+.vertical-menu a {
+    background-color: #fff;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 9px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 10px;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #6C1D38;
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.espacioArriba {
+    margin-top: 250px;
 }
