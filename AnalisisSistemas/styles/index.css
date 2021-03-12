@@ -15,18 +15,18 @@ body {
 /*-----PLECA DEL POLITECNICO-----*/
 
 .pleca {
-    width: 830px;
-    border: 1px solid black;
+    width: 70%;
+    /* border: 1px solid black; */
     margin: auto;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    /* padding-top: 25px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
 }
 
 .pleca-principal {
-    width: 800px;
-    height: 120px;
+    width: 80%;
+    /* height: 200px; */
     /* height: 100px; */
     /* align-self: center; */
 }
@@ -39,6 +39,29 @@ body {
     margin-top: 20px;
 }
 
+
+/* -------- navbar --------- */
+
+.navbar{    
+    background-color: #6C1D38;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-element{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /*-----MENU SIDEBAR-----*/
 
@@ -149,7 +172,7 @@ body {
 /*--CONTENIDO--*/
 
 .contenido {
-    padding-left: 110px;
+    /* padding-left: 110px; */
     text-align: left;
 }
 
