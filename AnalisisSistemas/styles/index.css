@@ -47,7 +47,6 @@ body {
     background-color: #6C1D38;
 }
 
-<<<<<<< HEAD
 .container-fluid{
     display: flex;
     justify-content: space-around;
@@ -58,22 +57,11 @@ body {
 }
 
 .navbar-collapse{
-=======
-.navbar-brand {
-    padding-left: 20px;
-}
-
-.nav-flex {
->>>>>>> 40f97ec717617de8e4f41627c4677d22bb15ab88
     display: flex;
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
 .navbar-nav {
-=======
-.nav-element {
->>>>>>> 40f97ec717617de8e4f41627c4677d22bb15ab88
     display: flex;
     justify-content: space-around;
 }
@@ -182,6 +170,14 @@ body {
     background-color: #6C1D38;
     color: #fff;
     text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p{
+    align-self: center;
 }
 
 
@@ -200,10 +196,12 @@ body {
 /*Barra lateral */
 
 .vertical-menu {
-    width: 185px;
-    height: 250px;
+    width: 90%;
+    /* height: 250px; */
     /* Set a width if you like */
     border: 1px #6C1D38 solid;
+    /* padding-left: 10px; */
+    margin: auto;
 }
 
 .vertical-menu a {
@@ -217,7 +215,7 @@ body {
     /* Add some padding */
     text-decoration: none;
     /* Remove underline from links */
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 
 .vertical-menu a:hover {
@@ -232,5 +230,5 @@ body {
 }
 
 .espacioArriba {
-    margin-top: 250px;
+    margin-top: 50px;
 }
