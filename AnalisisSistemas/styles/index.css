@@ -43,10 +43,11 @@ body {
 
 /* -------- navbar --------- */
 
-.navbar{    
+.navbar {
     background-color: #6C1D38;
 }
 
+<<<<<<< HEAD
 .container-fluid{
     display: flex;
     justify-content: space-around;
@@ -57,14 +58,26 @@ body {
 }
 
 .navbar-collapse{
+=======
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.nav-flex {
+>>>>>>> 40f97ec717617de8e4f41627c4677d22bb15ab88
     display: flex;
     justify-content: space-around;
 }
 
+<<<<<<< HEAD
 .navbar-nav {
+=======
+.nav-element {
+>>>>>>> 40f97ec717617de8e4f41627c4677d22bb15ab88
     display: flex;
     justify-content: space-around;
 }
+
 
 /*-----MENU SIDEBAR-----*/
 
@@ -181,4 +194,43 @@ body {
 
 .centrar {
     text-align: center;
+}
+
+
+/*Barra lateral */
+
+.vertical-menu {
+    width: 185px;
+    height: 250px;
+    /* Set a width if you like */
+    border: 1px #6C1D38 solid;
+}
+
+.vertical-menu a {
+    background-color: #fff;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 9px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 10px;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #6C1D38;
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.espacioArriba {
+    margin-top: 250px;
 }
