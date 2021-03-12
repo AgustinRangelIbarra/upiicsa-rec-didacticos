@@ -47,16 +47,16 @@ body {
     background-color: #6C1D38;
 }
 
-.container-fluid{
+.container-fluid {
     display: flex;
     justify-content: space-around;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 0 20px 0 20px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     display: flex;
     justify-content: space-around;
 }
@@ -176,7 +176,7 @@ body {
     align-items: center;
 }
 
-.footer-p{
+.footer-p {
     align-self: center;
 }
 
