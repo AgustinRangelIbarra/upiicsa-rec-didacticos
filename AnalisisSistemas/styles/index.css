@@ -232,3 +232,14 @@ body {
 .espacioArriba {
     margin-top: 50px;
 }
+
+.rotate {
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    margin-left: 70px;
+}
+
+.rotate.down {
+    transform: rotate(90deg);
+}
