@@ -27,6 +27,7 @@ body {
 
 .pleca-principal {
     width: 100%;
+    margin-top: 20px;
     /* height: 200px; */
     /* height: 100px; */
     /* align-self: center; */
@@ -215,7 +216,7 @@ body {
     /* Add some padding */
     text-decoration: none;
     /* Remove underline from links */
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
 }
 
 .vertical-menu a:hover {
