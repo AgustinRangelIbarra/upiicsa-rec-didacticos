@@ -244,3 +244,21 @@ body {
 .rotate.down {
     transform: rotate(90deg);
 }
+
+.centrarPlecas {
+    margin: auto;
+    text-align: center;
+}
+
+.paddinTop {
+    padding-top: 12px;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+.paddingExt {
+    padding-left: 5px;
+    padding-right: 5px;
+}
