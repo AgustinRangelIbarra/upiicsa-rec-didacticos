@@ -24,34 +24,15 @@ body {
     flex-wrap: nowrap;
 }
 
-.pleca-principal {
-    margin-top: 20px;
+.pleca-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ipn-escudo{
-    /* width: 75%; */
-    height: 7.5rem;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.membrete-sistemas{
-    /* width: 75%; */
-    height: 7.5rem;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-grow: 4; */
-}
-.upiicsa-escudo{
-    /* width: 75%; */
-    height: 7.5rem;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pleca-principal {
+    margin-top: 20px;
+    width: 95%;
 }
 
 /*-----TITULO-----*/
@@ -65,32 +46,6 @@ body {
 .pleca-titulo{
     height: 5rem;
 }
-
-/* -------- navbar --------- */
-
-.navbar {
-    background-color: #6C1D38;
-}
-
-.container-fluid {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar-brand {
-    padding: 0 20px 0 20px;
-}
-
-.navbar-collapse {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
 
 /*-----MENU SIDEBAR-----*/
 
@@ -208,9 +163,17 @@ body {
 
 /*--CONTENIDO--*/
 
+.plecas-titulos{
+    height: 4.5rem;
+}
+
 .contenido {
     /* padding-left: 110px; */
     text-align: left;
+}
+
+.contenido-activo{
+    height: 30rem;
 }
 
 .centrar {
@@ -244,7 +207,8 @@ body {
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc;
+    background-color: #ddd;
+    color: black;
     /* Dark grey background on mouse-over */
 }
 
@@ -275,7 +239,7 @@ body {
 }
 
 .paddinTop {
-    padding-top: 12px;
+    padding-top: 1rem;
 }
 
 .justificar {

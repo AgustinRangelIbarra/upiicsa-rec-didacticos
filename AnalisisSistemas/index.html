@@ -1,256 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Análisis de Sistemas</title>
+		<link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+			integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./styles/index.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis de Sistemas</title>
-    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/index.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-</head>
+	<body>
 
-<body>
+    <!-- MEMBRETE / PLECA PRINCIPAL -->
+		<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-1"></div>
+			<div class="col-lg-10 col-md-10 col-sm-10 pleca-cont">
+				<img
+					src="./assets/membrete-completo.png"
+					alt="Instituto Politécnico Nacional"
+					class="pleca-principal"
+				/>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1"></div>
+		</div>
 
-    <div class="row">
-        <div class="col-lg-3 col-md-2"></div>
-        <div class=" col-lg-6 col-md-8">
-            <img src="assets/Analisis_IDe2 (1).jpg" alt="Instituto Politécnico Nacional" class="pleca-principal">
-        </div>
-        <div class="col-lg-3 col-md-2"></div>
-        <!-- </div> -->
-    </div>
+    <!-- CONTENIDO -->
+		<div class="row">
+			<div class="col-lg-2 espacioArriba col-md-3">
+        <!-- SIDEBAR -->
+				<div class="vertical-menu">
+					<a href="#" class="active"> Contenido</a>
 
-    <!-- <div class="sidebar-container">
-        <div class="sidebar-logo">
-            Análisis de Sistemas
-        </div>
-        <ul class="sidebar-navigation">
-            <li class="header">Inicio</li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-home" aria-hidden="true"></i> Metodología
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-tachometer" aria-hidden="true"></i> Te conviene saber
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-tachometer" aria-hidden="true"></i> Para conocerte
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-tachometer" aria-hidden="true"></i> Tus profesores
-                </a>
-            </li>
+					<a
+						id="icono"
+						data-bs-toggle="collapse"
+						href="#collapseExample"
+						aria-expanded="false"
+						aria-controls="collapseExample"
+					>
+						<ion-icon name="book-outline"></ion-icon>
+						Unidades
+						<ion-icon class="rotate" name="chevron-forward-outline"></ion-icon>
+					</a>
 
-            <li class="header">Contenido</li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-users" aria-hidden="true"></i> Unidades
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-cog" aria-hidden="true"></i> Video juego
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Glosario
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Ayuda
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Creditos
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Para mejorar
-                </a>
-            </li>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body">
+							<a href="">
+								<ion-icon name="layers-outline"></ion-icon>
+								<img src="assets/Pleca_An_Introd.png" alt="" width="170px" />
+							</a>
+							<a href="">
+								<ion-icon name="layers-outline"></ion-icon> 2. Técnicas y herramientas del
+								analisis de sistemas
+							</a>
+							<a href="">
+								<ion-icon name="layers-outline"></ion-icon> 3. Enfoque de analisis</a
+							>
+						</div>
+					</div>
+					<a href="#">
+						<ion-icon name="game-controller-outline"></ion-icon> Aprendizaje Lúdico</a
+					>
 
-        </ul>
-    </div> -->
+					<a href="#"> <ion-icon name="library-outline"></ion-icon> Glosario</a>
+					<a href="#"> <ion-icon name="help-circle-outline"></ion-icon> Ayuda</a>
+					<a href="#"> <ion-icon name="accessibility-outline"></ion-icon> Creditos</a>
+					<a href="#"> <ion-icon name="ribbon-outline"></ion-icon> Para mejorar</a>
+				</div>
+			</div>
 
+			<!--Contenido de la página-->
+			<div class="col-lg-8 col-md-9">
+				<div class="contenido centrar">
+					<div class="border p-3 border-2 espacioArriba paddinTop">
+						<!-- <h1>Bienvenido al Curso</h1> -->
+						<img class="plecas-titulos" src="assets/Pleca_An_Bienve.png" alt="" />
+						<div class="justificar paddinTop paddingExt contenido-activo">
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore,
+								voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita
+								corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus
+								temporibus soluta fugit!
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita
+								quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt,
+								quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
+								deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis
+								officia.
+							</p>
+						</div>
+					</div>
 
+					<div class="border border-2 paddinTop">
+						<img class="plecas-titulos" src="assets/Pleca_An_Metod.png" alt="" />
+						<div class="justificar paddinTop paddingExt">
 
-    <div class="row">
-        <div class="col-lg-2 espacioArriba col-md-3">
-            <div class="vertical-menu">
-                <a href="#" class="active">
-                    Contenido</a>
+						</div>
+					</div>
 
+					<div class="border border-2 paddinTop">
+						<img class="plecas-titulos" src="assets/Pleca_An_Conoce.png" alt="" />
+						<div class="justificar paddinTop paddingExt">
+						</div>
+					</div>
 
-                <a id="icono" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					<div class="border border-2 paddinTop">
+						<img class="plecas-titulos" src="assets/Pleca_An_Antes.png" alt="" />
+						<div class="justificar paddinTop paddingExt">
+						</div>
+						
+					</div>
 
-                    <ion-icon name="book-outline"></ion-icon>
-                    Unidades
-                    <ion-icon class="rotate" name="chevron-forward-outline"></ion-icon>
-                </a>
+					<div class="border border-2 paddinTop">
+						<img class="plecas-titulos" src="assets/Pleca_An_Introd.png" alt="" />
+						<div class="justificar paddinTop paddingExt">
+						</div>
+					</div>
+					<div class="border border-2 paddinTop">
+						<img class="plecas-titulos" src="assets/Pleca_An_Tecnicas.png" alt="" />
+						<div class="justificar paddinTop paddingExt">
+						</div>
+					</div>
+					<div class="border border-2 paddinTop">
+						<img class="plecas-titulos" src="assets/Pleca_An_Enfoque.png" alt="" />
+						<div class="justificar paddinTop paddingExt">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
 
+		<div class="footer container-fluid">
+			<p class="footer-p">Instituto Politécnico Nacional - Derechos Reservados</p>
+		</div>
 
-                <div class="collapse" id="collapseExample">
-                    <div class="card card-body">
-                        <a href="">
-                            <ion-icon name="layers-outline"></ion-icon>
-                            <img src="assets/Pleca_An_Introd.png" alt="" width="170px">
-                        </a>
-                        <a href="">
-                            <ion-icon name="layers-outline"></ion-icon> 2. Técnicas y herramientas del analisis de sistemas </a>
-                        <a href="">
-                            <ion-icon name="layers-outline"></ion-icon> 3. Enfoque de analisis</a>
-                    </div>
-                </div>
-                <a href="#">
-                    <ion-icon name="game-controller-outline"></ion-icon> Aprendizaje Lúdico</a>
-
-                <a href="#">
-                    <ion-icon name="library-outline"></ion-icon> Glosario</a>
-                <a href="#">
-                    <ion-icon name="help-circle-outline"></ion-icon> Ayuda</a>
-                <a href="#">
-                    <ion-icon name="accessibility-outline"></ion-icon> Creditos</a>
-                <a href="#">
-                    <ion-icon name="ribbon-outline"></ion-icon> Para mejorar</a>
-            </div>
-
-        </div>
-
-        <!--Contenido de la página-->
-        <div class="col-lg-8 col-md-9">
-            <div class="contenido centrar">
-
-
-
-                <div class="border border-2 espacioArriba paddinTop">
-                    <!-- <h1>Bienvenido al Curso</h1> -->
-                    <img src="assets/Pleca_An_Bienve.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-
-                </div>
-
-                <div class="border border-2 paddinTop">
-
-                    <img src="assets/Pleca_An_Metod.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-                </div>
-
-
-                <div class="border border-2 paddinTop">
-                    <img src="assets/Pleca_An_Conoce.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-                    <!-- <div class="container-sm">
-                        <iframe src="https://h5p.org/h5p/embed/1094705" width="1090" height="677" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *">
-                        </iframe>
-                    </div> -->
-
-                </div>
-
-                <div class="border border-2  paddinTop">
-                    <img src="assets/Pleca_An_Antes.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-                    <!-- <div class="container-sm">
-                        <iframe src="https://h5p.org/h5p/embed/1095755" width="1090" height="677" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
-                        <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
-                    </div> -->
-
-                </div>
-
-
-
-                <div class="border border-2 paddinTop">
-                    <img src="assets/Pleca_An_Introd.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-                </div>
-                <div class="border border-2 paddinTop">
-                    <img src="assets/Pleca_An_Tecnicas.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-
-                </div>
-                <div class="border border-2 paddinTop">
-                    <img src="assets/Pleca_An_Enfoque.png" alt="">
-                    <div class="justificar paddinTop paddingExt">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptatem. Qui, iure reprehenderit placeat facere, eveniet hic expedita corrupti sequi vel saepe possimus pariatur dolorem repudiandae voluptatibus temporibus soluta
-                            fugit!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illo expedita quaerat facilis architecto. Labore voluptatum assumenda officiis incidunt, quo ratione facere esse, eaque, dolor exercitationem ut delectus quos quasi
-                            deleniti praesentium iure qui accusamus repudiandae nobis. Earum, omnis officia.</p>
-                    </div>
-
-                </div>
-
-
-
-            </div>
-        </div>
-        <div class="col-lg-2">
-
-        </div>
-    </div>
-
-    <div class="footer container-fluid">
-        <p class="footer-p">Instituto Politécnico Nacional - Derechos Reservados</p>
-    </div>
-
-
-
-
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script src="/AnalisisSistemas/index.js"></script>
-    <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8">
-    </script>
-    <script src="/AnalisisSistemas/ionicons-5.4.0.designerpack/accessibility.svg"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-</body>
-
+		<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+		<script src="/AnalisisSistemas/index.js"></script>
+		<script
+			src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js"
+			charset="UTF-8"
+		></script>
+		<script src="/AnalisisSistemas/ionicons-5.4.0.designerpack/accessibility.svg"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
