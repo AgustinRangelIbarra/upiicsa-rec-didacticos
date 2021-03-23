@@ -15,24 +15,44 @@ body {
 /*-----PLECA DEL POLITECNICO-----*/
 
 .pleca {
-    width: 50%;
-    /* border: 1px solid black; */
-    margin: auto;
-    padding: 0 50px 20px 50px;
-    /* padding-top: 25px; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* align-content: center; */
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    align-content: center;
+    flex-wrap: nowrap;
 }
 
 .pleca-principal {
-    width: 100%;
     margin-top: 20px;
-    /* height: 200px; */
-    /* height: 100px; */
-    /* align-self: center; */
 }
 
+.ipn-escudo{
+    /* width: 75%; */
+    height: 7.5rem;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.membrete-sistemas{
+    /* width: 75%; */
+    height: 7.5rem;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 4; */
+}
+.upiicsa-escudo{
+    /* width: 75%; */
+    height: 7.5rem;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*-----TITULO-----*/
 
@@ -41,6 +61,10 @@ body {
     margin-top: 20px;
 }
 
+/* --------- PLECA TITULO ---------- */
+.pleca-titulo{
+    height: 5rem;
+}
 
 /* -------- navbar --------- */
 
