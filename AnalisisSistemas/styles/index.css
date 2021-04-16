@@ -5,11 +5,6 @@
 
 body {
 	font-family: sans-serif;
-	background-color: #e5e5f7;
-    background-color: #ffffff;
-    /* opacity: 0.2; */
-    background-image: radial-gradient(#afacac 1.1px, #ffffff 1.1px);
-    background-size: 22px 22px;
 }
 
 .letra {
@@ -36,7 +31,7 @@ body {
 
 .pleca-principal {
 	margin-top: 20px;
-	width: 95%;
+	width: 80%;
 }
 
 /*-----TITULO-----*/
@@ -55,7 +50,7 @@ body {
 }
 
 .card-element {
-	border-top: 1px #ccc solid;
+	/* border-top: 1px #ccc solid; */
 }
 
 .video-bienvenida {
