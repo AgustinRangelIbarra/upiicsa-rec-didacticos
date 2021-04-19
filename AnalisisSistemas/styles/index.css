@@ -43,6 +43,12 @@ body {
     margin-top: 20px;
 }
 
+hr.bienvenida{
+    width: 20rem;
+    margin: auto;
+    /* color: #6c1d38; */
+}
+
 
 /* --------- PLECA TITULO ---------- */
 
@@ -53,8 +59,14 @@ body {
     padding: 0;
 }
 
-.card-element {
-    /* border-top: 1px #ccc solid; */
+.card-element::hover {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    background-color: teal;
+    left: 0;
+    bottom: 0;
 }
 
 .video-bienvenida {
@@ -159,6 +171,10 @@ body {
     padding-left: 220px;
 }
 
+.sidebar-icons { 
+    color: rgb(109, 35, 35);
+}
+
 
 /*--FOOTER--*/
 
@@ -223,7 +239,8 @@ body {
 /*Barra lateral */
 
 .vertical-menu {
-    width: 80%;
+    width: 70%;
+    font-size: 1rem;
     /* height: 250px; */
     /* Set a width if you like */
     border: 2px #6c1d38 solid;
