@@ -1,0 +1,96 @@
+
+#justificacion{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10.5pt;
+}
+
+#manual{
+    height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.navegadores{
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.creditos{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5em;
+}
+.superCreditos{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    margin: 2em;
+}
+
+.creditos1 p, .creditos1 p>b{
+    text-align: center;
+    font-size: 10.5pt;
+}
+
+.creditos2 p{
+    text-align: center;
+    font-size: 10.5pt;
+}
+
+.creditos3 p{
+    text-align: center;
+    font-size: 10.5pt;
+}
+
+.produccion p>b{
+    position: absolute;
+    margin: 0.3em;
+    font-size: 10.5pt;
+}
+
+.produccion img{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: no-repeat;
+}
+
+.creditos23{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 1em;
+    font-size: 10.5pt;
+}
+
+.creditos23 p>b{
+    font-size: 10.5pt;
+}
+
+#MapaC .regreso2{
+    margin-bottom: 0;
+}
+
+.glosario{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 2em;
+}
+
+.integraciongrupal{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 0.2em;
+}
+
+#Mapa img{
+    margin: 4em auto;
+}
+
